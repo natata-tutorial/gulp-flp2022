@@ -1,0 +1,25 @@
+@import "fonts";
+body {
+   background: #000;
+   img {
+      border: red;
+   }
+   p {
+      color: green;
+      display: grid;
+
+      font-family: "Fredoka", sans-serif;
+   }
+   background-image: url("@img/Screenshot.png");
+}
+@media (min-width: 768px) {
+   body {
+      color: yellow;
+   }
+}
+
+@media (min-width: 768px) {
+   body {
+      color: yellow;
+   }
+}
